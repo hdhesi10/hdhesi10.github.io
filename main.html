@@ -2,10 +2,72 @@
 <html>
 <head>
 <style>
+* {
+    box-sizing: border-box;
+}
+.header, .footer {
+    background-color: maroon;
+    color: white;
+    padding: 15px;
+}
+.column {
+    float: left;
+    padding: 15px;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.menu {
+    width: 25%;
+}
+.content {
+    width: 75%;
+    background-color: grey;
+}
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.menu li {
+    padding: 8px;
+    margin-bottom: 8px;
+    background-color: teal;
+    color: #ffffff;
+}
+.menu li:hover {
+    background-color: #0099cc;
+}
 </style>
 </head>
 <body>
-<h1>Welcome to Enver Creek Secondary's Website</h1>
-<img
-src=https://www.surreyschools.ca/schools/envercreek/Style%20Library/Images/114.jpg width=300 height=150>
-<br>
+
+<div class="header">
+  <h1>Home-Enver Creek Secondary</h1>
+</div>
+
+<div class="clearfix">
+  <div class="column menu">
+    <ul>
+      <li>Departments</li>
+      <li>Extra-Curricular</li>
+      <li>Parents</li>
+      <li>News & Other</li>
+    </ul>
+  </div>
+
+  <div class="column content">
+    <h1>Welcome To Enver Creek Secondary's Website</h1>
+    <p></p>
+    <p></p>
+  </div>
+</div>
+
+<div class="footer">
+  <p>Footer Text</p>
+</div>
+
+</body>
+</html>
