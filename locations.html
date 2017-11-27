@@ -1,1 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+    box-sizing: border-box;
+}
+body {
+	background-color: grey;
+}
+.header, .footer {
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+.header {
+    font-family: verdana;
+}
+.footer {
+    position: bottom;
+    bottom: 0;
+    width: 100%;
+    }
+    
+.column {
+    float: left;
+    padding: 15px;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.menu {
+    width: 25%;
+    background-color:  grey;
+}
+.content {
+    width: 75%;
+    background-color: grey;
+}
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.menu li {
+    padding: 25px;
+    margin-bottom: 25px;
+    background-color: black;
+    color: #ffffff;
+}
+.menu li:hover {
+    background-color: #0099cc;
+}
+img {
+    float: right;
+}
+#contact {
+    text-align: center ;
+}
+.more {
+    float: right;
+}
+    .menu li a {
+        text-decoration:none;
+        color:white;
+}
+ #italian {
+         float: left ;
+         }
+</style>
+</head>
+<body>
 
+<div class="header">
+<img src="https://stocklogos-pd.s3.amazonaws.com/styles/logo-medium-alt/logos/image/1345800309-2e35034609293e75b9b035f2cc99f837.png?itok=sOBvbTZB" width=200 height=90>
+    <h1 id="contact">Italiano</h1>
+     </div>
+   <div class="clearfix">
+  <div class="column menu">
+    <ul>
+     	<li><a>Home</a></li>
+       	<li><a>Menu</a></li>
+      <li><a>Locations</a></li>
+    </ul>
+  </div>
+ <div class="column content">
+    <h1>Locations</h1>
+    <img src="" width=400 height=200>
+     <p>We have a total of 4 locations in the lower mainland. Our hours of operation for all 4 restaurants is 12:00pm-2:00am </p>
+     </div>
+     <div>
+    <p>This is our restaurant in Vancouver, BC Downtown 1139 Robson Street and is our main location</p>
+    <img src="http://www.disneyeveryday.com/wp-content/uploads/2014/12/Trattoria-al-Forno-at-the-Walt-Disney-World-Boardwalk1.jpg" width=300 height=150>
+	</div>
+   </div>
+<div class="footer">
+     <img id="italian" src= "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Facebook_logo_36x36.svg/240px-Facebook_logo_36x36.svg.png" width=50 height=50>
+      <img id="italian" src= "https://seeklogo.com/images/I/instagram-logo-3EDAAFAF47-seeklogo.com.png" width=50 height=50>
+      <img id="italian" src= "https://n6-img-fp.akamaized.net/free-icon/twitter_318-136405.jpg?size=338&ext=jpg" width=50 height=50>
+
+  <p id="contact"> Vancouver, BC Downtown 1139 Robson Street
+</p>
+ <p id="contact">Phone: 604-101-1010 Fax: 604-101-2020</p>
+</div>
+</body>
+</html>
