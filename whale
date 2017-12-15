@@ -1,0 +1,8 @@
+var input = prompt("Tell your whale what you want to say!")
+var vowels = ["a" , "e" , "i" , "o" , "u"];
+var resultArray = [ ];
+
+for (var i = 0; i < input.length =; i++) {
+  // input length is 25
+   for (var j = 0; j < vowels.length; i++) {
+     if (input[i] === )     
