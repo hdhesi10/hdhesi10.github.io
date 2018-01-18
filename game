@@ -1,0 +1,30 @@
+var user = prompt("What's your name?") ;
+user.toLowerCase();
+switch(user) {
+case'Buster':
+    console.log("Hey, brother!");
+    break;
+case 'GOB':
+    console.log("I've made a a huge mistake.");
+    break;
+case 'Steve':
+    console.log("Steve Holt!");
+    break;
+default:
+    console.log("I don't know you!");
+}
+switch('month') {
+    
+    case 0:
+
+    if(day == 1) {
+           console.log("Happy New Year");
+       }
+        else {
+            console.log("Happy January");
+        }
+
+        break;
+
+    /* ... */
+}
