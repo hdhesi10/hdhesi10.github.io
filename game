@@ -1,30 +1,19 @@
-var user = prompt("What's your name?") ;
-user.toLowerCase();
-switch(user) {
-case'Buster':
-    console.log("Hey, brother!");
-    break;
-case 'GOB':
-    console.log("I've made a a huge mistake.");
-    break;
-case 'Steve':
-    console.log("Steve Holt!");
-    break;
-default:
-    console.log("I don't know you!");
+// Check if the user is ready to play!
+confirm("Are you ready to play?") ;
+var age = prompt("Age of user playing?");
+if(age < 8) {
+ console.log("You can play but we take no responsibility!");
+} else {
+     console.log("Play on!");
 }
-switch('month') {
-    
-    case 0:
-
-    if(day == 1) {
-           console.log("Happy New Year");
-       }
-        else {
-            console.log("Happy January");
-        }
-
-        break;
-
-    /* ... */
+console.log("You are offered a contract from 2 extremely talented clubs to be the coach for 1 season");
+varuserAnswer = prompt("What soccer team will you manage?  Enter 1 for “Fc Barcelona” or 2 for “Real Madrid”? ");
+if(userAnswer === "1"){
+console.log("Congrats Barcelona is a outstanding team");
+}else{ 
+console.log("Congrats Real Madrid is a amazing team");
 }
+console.log("Transfer window is open which players which player will you buy 1 'Cristiano Ronaldo age 32' or 2 'Lionel Messi age 30' or  3 'Neymar junior age 25'");
+if(userAnswer === "1"){
+console.log("Very good player but retirement is near");
+}else{ 
