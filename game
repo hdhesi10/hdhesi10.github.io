@@ -1,19 +1,35 @@
 // Check if the user is ready to play!
-confirm("Are you ready to play?") ;
+confirm("Are you ready to play?");
 var age = prompt("Age of user playing?");
-if(age < 8) {
- console.log("You can play but we take no responsibility!");
+if (age < 8) {
+  alert("You can play but we take no responsibility!");
 } else {
-     console.log("Play on!");
+  alert("Play on!");
 }
-console.log("You are offered a contract from 2 extremely talented clubs to be the coach for 1 season");
-varuserAnswer = prompt("What soccer team will you manage?  Enter 1 for “Fc Barcelona” or 2 for “Real Madrid”? ");
-if(userAnswer === "1"){
-console.log("Congrats Barcelona is a outstanding team");
-}else{ 
-console.log("Congrats Real Madrid is a amazing team");
+alert("You are offered a contract from 2 extremely talented clubs to be the coach for 1 season");
+var userAnswer = prompt("What soccer team will you manage?  Enter 1 for “Fc Barcelona” or 2 for “Real Madrid”? ");
+if (userAnswer === '1') {
+  alert("Congrats Barcelona is a outstanding team");
+} else if (userAnswer === '2') {
+  alert("Congrats Real Madrid is a amazing team");
+} else {
+  alert(" Sorry that is an invalid command");
 }
-console.log("Transfer window is open which players which player will you buy 1 'Cristiano Ronaldo age 32' or 2 'Lionel Messi age 30' or  3 'Neymar junior age 25'");
-if(userAnswer === "1"){
-console.log("Very good player but retirement is near");
-}else{ 
+alert("Transfer window is open which player will you buy?");
+var userAnswer = prompt(" 1 'Cristiano Ronaldo age 32' or 2 'Lionel Messi age 30' or  3 'Neymar junior age 25'");
+if (userAnswer === '1') {
+  alert("Ronaldo is a very good player but retirement is near");
+} else if (userAnswer === '2') {
+  alert("Messi is the best player but very injury prone");
+} else if (userAnswer === '3') {
+  alert("Neymar is a great young player but very little experience");
+}
+alert("Your first game is in 8 days and you need to be prepared");
+var userAnswer = prompt("You have 6 days to train, how many days will you train?");
+if (userAnswer === '1' || userAnswer === '2') { 
+  alert("Very little and your team isn’t prepared so you lose the game");
+} else if (userAnswer === '3' || userAnswer === '4') {
+alert("Very good amount your team is prepared and you win");
+} else if (userAnswer === '5' || userAnswer === '6') {
+alert("Way to many so your team doesn’t get rest and you lose the game");
+}
