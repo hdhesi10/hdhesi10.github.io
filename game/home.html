@@ -1,1 +1,107 @@
-
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+    box-sizing: border-box;
+}
+body {
+	background-color: grey;
+}
+.header, .footer {
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+.header {
+    font-family: verdana;
+}
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    }
+    
+.column {
+    float: left;
+    padding: 15px;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.menu {
+    width: 25%;
+    background-color:  grey;
+}
+.content {
+    width: 75%;
+    background-color: grey;
+}
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.menu li {
+    padding: 25px;
+    margin-bottom: 25px;
+    background-color: black;
+    color: #ffffff;
+}
+.menu li:hover {
+    background-color: #0099cc;
+}
+img {
+    float: right;
+}
+#contact {
+    text-align: center ;
+}
+.more {
+    float: right;
+}
+    .menu li a {
+        text-decoration:none;
+        color:white;
+}
+ #italian {
+         float: left ;
+         }
+.menu li a {
+  	    text-decoration:none;
+            color:white;
+</style>
+</head>
+<body>
+<div class="header">
+<img src="http://worldversus.com/img/vs/ws-RealMadrid.jpg" width=200 height=90>
+    <h1 id="contact">Soccer Centre</h1>
+     </div>
+   <div class="clearfix">
+  <div class="column menu">
+    <ul>
+        <li><a href="https://hdhesi10.github.io/game/home.html">Home</a></li>
+       	<li><a href="https://hdhesi10.github.io/game/game.html">Game</a></li>
+    </ul>
+  </div>
+ <div class="column content">
+    <h1>
+    </h1>
+  <img src="http://www.slate.com/content/dam/slate/articles/sports/sports_nut/2014/03/140306_SNUT_Brazuca-Promo.jpg.CROP.promo-large.jpg" width=300 height=175>
+     <p>Play our awesome game called Battle of the classics!</p>
+     </div>
+    <p>It is an amazing game for soccer fans. There is many unique choices and many outcomes. It is a fun game to play. Lets see if you can win the UEFA cahmpions league gup!!!</p>
+     <img src="https://goolfm.net/wp-content/uploads/2017/12/b-135.jpg" width=300 height=160>
+	</div>
+    </div>
+<div class="footer">
+     <img id="italian" src= "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Facebook_logo_36x36.svg/240px-Facebook_logo_36x36.svg.png" width=50 height=50>
+      <img id="italian" src= "https://seeklogo.com/images/I/instagram-logo-3EDAAFAF47-seeklogo.com.png" width=50 height=50>
+  <p id="contact">Must Be 8 years of age to play! 
+</p>
+ <p id="contact">Worlds Best Soccer Games</p>
+</div>
+</body>
+</html>
