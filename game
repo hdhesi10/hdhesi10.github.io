@@ -9,135 +9,94 @@ if (age < 8) {
 alert("You are offered a contract from 2 extremely talented clubs to be the coach for 1 season");
 var userAnswer = prompt("What soccer team will you manage?  Enter 1 for “Fc Barcelona” or 2 for “Real Madrid”? ");
 if (userAnswer === '1') {
-  alert("Congrats Barcelona is a outstanding team");
+  alert("Congrats Barcelona is a outstanding team!");
 } else if (userAnswer === '2') {
-  alert("Congrats Real Madrid is a amazing team");
+  alert("Congrats Real Madrid is a amazing team!");
 } else {
   alert(" Sorry that is an invalid command");
 }
 alert("Transfer window is open which player will you buy?");
 var userAnswer = prompt(" 1 'Cristiano Ronaldo age 32' or 2 'Lionel Messi age 30' or  3 'Neymar junior age 25'");
 if (userAnswer === '1') {
-  alert("Ronaldo is a very good player but retirement is near");
+  alert("Ronaldo is a very good player but retirement is near!");
 } else if (userAnswer === '2') {
-  alert("Messi is the best player but very injury prone");
+  alert("Messi is the best player but very injury prone!");
 } else if (userAnswer === '3') {
-  alert("Neymar is a great young player but very little experience");
+  alert("Neymar is a great young player but very little experience!");
 }
 alert("Your first game is in 8 days and you need to be prepared");
 var userAnswer = prompt("You have 6 days to train, how many days will you train?");
-if (userAnswer === '1' || userAnswer === '2') { 
+if (userAnswer === '1' || userAnswer === '2') {
   alert("Very little and your team isn’t prepared so you lose the game");
 } else if (userAnswer === '3' || userAnswer === '4') {
-alert("Very good amount your team is prepared and you win");
+  alert("Very good amount your team is prepared and you win!");
 } else if (userAnswer === '5' || userAnswer === '6') {
-alert("Way to many so your team doesn’t get rest and you lose the game");
+  alert("Way to many so your team doesn’t get rest and you lose the game");
 }
-alert("");
-var userAnswer = prompt("?");
-if (userAnswer === '1') { 
-alert("");
-} else if (userAnswer === '3') {
-alert("");
-} else if (userAnswer === '5') {
-alert("");
+alert("Your second game is against Bayern Munich they are an amazing team who are great at defending");
+var userAnswer = prompt("Will you 1 'Sit back and play defensively' or will you 2 'Go all out attacking'?");
+if (userAnswer === '1') {
+  alert("Your team's defending was outstanding so your team scored 3 goals off the counter and won the game!");
+} else if (userAnswer === '2') {
+  alert("Your team couldn’t break down their defense so they scored 2 goals and you lost because your team was pushed up to far");
 }
-alert("");
-var userAnswer = prompt("?");
-if (userAnswer === '1') { 
-alert("");
-} else if (userAnswer === '3') {
-alert("");
-} else if (userAnswer === '5') {
-alert("");
+alert("The goalkeeper gets injured in training so you need to loan a goalie for the next 4 games until your keeper is back from injury");
+var userAnswer = prompt("Your budget for loans this year is 750,000. The choices are 1 West Ham’s goalie Adrian for 80,000 a cheap good goalkeeper but he concedes many goals. Your second choice is 2 Southampton’s Fraser Forster for 200,000 expensive but an excellent keeper?");
+if (userAnswer === '1') {
+  alert("Your team loses 2 out of the 3 and wins only one games because you were cheap");
+} else if (userAnswer === '2') {
+  alert("Your team wins 2 out of the 3 and draws one game because you made a good investment!");
 }
-alert("");
-var userAnswer = prompt("?");
-if (userAnswer === '1') { 
-alert("");
-} else if (userAnswer === '3') {
-alert("");
-} else if (userAnswer === '5') {
-alert("");
+alert("One of your young players is complaining that he does not get enough playing time he wants to go out on loan or wants a transfer to another team. He is a bright young man with a lot of potential");
+var userAnswer = prompt("Will you 1 'loan' or 2 'transfer' him?");
+if (userAnswer === '1') {
+  alert("A team loans him so you are making money from that and he will be an awesome player for your team in the future! ");
+} else if (userAnswer === '2') {
+  alert("He leaves your team and will be a problem for you in the future because he is going to be an amazing player");
 }
-alert("");
-var userAnswer = prompt("?");
-if (userAnswer === '1') { 
-alert("");
-} else if (userAnswer === '3') {
-alert("");
-} else if (userAnswer === '5') {
-alert("");
+alert("Your team is now in the league cup final and you’re playing against the best attacking team in the league Atlético Madrid. You have a choice of playing kick and run style of soccer or a passing and moving style.");
+var userAnswer = prompt("Will you play 1 'kick and run' or 2 'passing and moving' soccer?");
+if (userAnswer === '1') {
+  alert("Your team keeps losing the ball, the other team is getting many attacks and your team has no control of the game");
+} else if (userAnswer === '2') {
+  alert("Your team is running circles around the other team and have majority of the possession in the game!");
 }
-alert("");
-var userAnswer = prompt("?");
-if (userAnswer === '1') { 
-alert("");
-} else if (userAnswer === '3') {
-alert("");
-} else if (userAnswer === '5') {
-alert("");
+alert("It the second half the score is 0-0 with 10 minutes remaining and one of your players who currently just got off suspension for fighting receives a red card for punching another player.");
+var userAnswer = prompt("You are playing a man down will you play 1 an 'attacking' or 2 'defending' game?");
+if (userAnswer === '1') {
+  alert("Your team pressed up to high so the opposition score a goal and you lose 1-0");
+} else if (userAnswer === '2') {
+  alert("Your team plays a excellent defending game and takes the game to shootouts and wins!");
 }
-alert("");
-var userAnswer = prompt("?");
-if (userAnswer === '1') { 
-alert("");
-} else if (userAnswer === '3') {
-alert("");
-} else if (userAnswer === '5') {
-alert("");
+alert("This player has caused a lot of tension and stress for you and your team. He can be responsible for a loss in the big game but he is a great defender one of the best. He has caused some big losses and is a liability, it is your choice what to do with him.");
+var userAnswer = prompt("Will you 1 'keep this player' or will you 2 'take him off your team' ?");
+if (userAnswer === '2') {
+  alert("The club owner and team support your decision and stand by it!");
+} else if (userAnswer === '1') {
+  alert("The club owner and team disagree and are not supporting your decision. You will be held responsible for the cup game results");
 }
-alert("");
-var userAnswer = prompt("?");
-if (userAnswer === '1') { 
-alert("");
-} else if (userAnswer === '3') {
-alert("");
-} else if (userAnswer === '5') {
-alert("");
+alert("Your team have made it so far and are into the UEFA Champions league final. This is the most important game of your team’s season and your career and if you lose this you will be fired. For this game you’re playing Manchester United an all around amazing team.");
+var userAnswer = prompt("There is 5 days remaining until the game and you have 4 days to train. How many days will you train?");
+if (userAnswer === '1') {
+  alert("Not enough your teams not prepared");
+} else if (userAnswer === '2'|| userAnswer === '3') {
+  alert("Your team is ready and rested up!");
+} else if (userAnswer === '4') {
+  alert("You have tired out your team and they had no time to rest");
 }
-alert("");
-var userAnswer = prompt("?");
-if (userAnswer === '1') { 
-alert("");
-} else if (userAnswer === '3') {
-alert("");
-} else if (userAnswer === '5') {
-alert("");
+alert("The big game day is here and your team is asking if they should play attacking or defending. Manchester is a team who is very bad at defending counter attacks but has an amazing offence");
+var userAnswer = prompt("Will you 1 'attack' or 2 'defend'?");
+if (userAnswer === '1') {
+  alert("Not smart! Your team is down at half time");
+} else if (userAnswer === '2') {
+  alert("Smart decision! Your team is leading at half time.");
 }
-alert("");
-var userAnswer = prompt("?");
-if (userAnswer === '1') { 
-alert("");
-} else if (userAnswer === '3') {
-alert("");
-} else if (userAnswer === '5') {
-alert("");
+alert("It is the last 5 minutes of the game it is a tie and you have received a penalty shot. You will need a player who is composed and calm because the keeper is very good at reading players and saving power shots.");
+var userAnswer = prompt("Who will take this penalty 1 your'foward' or 2 your 'centre mid'?");
+if (userAnswer === '1') {
+  alert("= Takes a very powerful shot and the keeper saves it. You lose the big game in extra time and get fired");
+} else if (userAnswer === '2') {
+  alert("Takes a placement shot right into the corner and scores!!! You win the champions league cup and make history! The team extends their contract for you as team manager.");
+alert("Congrats you have completed the game!!!")
 }
-alert("");
-var userAnswer = prompt("?");
-if (userAnswer === '1') { 
-alert("");
-} else if (userAnswer === '3') {
-alert("");
-} else if (userAnswer === '5') {
-alert("");
-}
-alert("");
-var userAnswer = prompt("?");
-if (userAnswer === '1') { 
-alert("");
-} else if (userAnswer === '3') {
-alert("");
-} else if (userAnswer === '5') {
-alert("");
-}
-alert("");
-var userAnswer = prompt("?");
-if (userAnswer === '1') { 
-alert("");
-} else if (userAnswer === '3') {
-alert("");
-} else if (userAnswer === '5') {
-alert("");
-}
+
