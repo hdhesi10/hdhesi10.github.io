@@ -33,10 +33,111 @@ alert("Very good amount your team is prepared and you win");
 } else if (userAnswer === '5' || userAnswer === '6') {
 alert("Way to many so your team doesn’t get rest and you lose the game");
 }
-alert("Your second game is against Bayern Munich they are an amazing team who are great at defending");
-var userAnswer = prompt("Will you 1 'Sit back and play defensively' or will you 2 'Go all out attacking'?");
-if (userAnswer === '2'){
-alert("Your team couldn’t break down their defense so they scored 2 goals and you lost because your team was pushed up to far");
-} else if (userAnswer === '1'){
-alert("Your team defending was outstanding so your team scored 3 goals off the counter and won the game");
+alert("");
+var userAnswer = prompt("?");
+if (userAnswer === '1') { 
+alert("");
+} else if (userAnswer === '3') {
+alert("");
+} else if (userAnswer === '5') {
+alert("");
+}
+alert("");
+var userAnswer = prompt("?");
+if (userAnswer === '1') { 
+alert("");
+} else if (userAnswer === '3') {
+alert("");
+} else if (userAnswer === '5') {
+alert("");
+}
+alert("");
+var userAnswer = prompt("?");
+if (userAnswer === '1') { 
+alert("");
+} else if (userAnswer === '3') {
+alert("");
+} else if (userAnswer === '5') {
+alert("");
+}
+alert("");
+var userAnswer = prompt("?");
+if (userAnswer === '1') { 
+alert("");
+} else if (userAnswer === '3') {
+alert("");
+} else if (userAnswer === '5') {
+alert("");
+}
+alert("");
+var userAnswer = prompt("?");
+if (userAnswer === '1') { 
+alert("");
+} else if (userAnswer === '3') {
+alert("");
+} else if (userAnswer === '5') {
+alert("");
+}
+alert("");
+var userAnswer = prompt("?");
+if (userAnswer === '1') { 
+alert("");
+} else if (userAnswer === '3') {
+alert("");
+} else if (userAnswer === '5') {
+alert("");
+}
+alert("");
+var userAnswer = prompt("?");
+if (userAnswer === '1') { 
+alert("");
+} else if (userAnswer === '3') {
+alert("");
+} else if (userAnswer === '5') {
+alert("");
+}
+alert("");
+var userAnswer = prompt("?");
+if (userAnswer === '1') { 
+alert("");
+} else if (userAnswer === '3') {
+alert("");
+} else if (userAnswer === '5') {
+alert("");
+}
+alert("");
+var userAnswer = prompt("?");
+if (userAnswer === '1') { 
+alert("");
+} else if (userAnswer === '3') {
+alert("");
+} else if (userAnswer === '5') {
+alert("");
+}
+alert("");
+var userAnswer = prompt("?");
+if (userAnswer === '1') { 
+alert("");
+} else if (userAnswer === '3') {
+alert("");
+} else if (userAnswer === '5') {
+alert("");
+}
+alert("");
+var userAnswer = prompt("?");
+if (userAnswer === '1') { 
+alert("");
+} else if (userAnswer === '3') {
+alert("");
+} else if (userAnswer === '5') {
+alert("");
+}
+alert("");
+var userAnswer = prompt("?");
+if (userAnswer === '1') { 
+alert("");
+} else if (userAnswer === '3') {
+alert("");
+} else if (userAnswer === '5') {
+alert("");
 }
